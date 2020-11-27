@@ -1,20 +1,20 @@
 {
-  "name": "jsreport-html-to-text",
-  "version": "2.1.0",
-  "description": "jsreport recipe converting html into text",
+  "name": "jsreport-markdown-to-html",
+  "version": "1.0.0",
+  "description": "jsreport recipe converting markdown into html",
   "main": "index.js",
   "keywords": [
     "jsreport",
     "recipe"
   ],
-  "homepage": "https://github.com/jsreport/jsreport-html-to-text",
+  "homepage": "https://github.com/on2air/jsreport-markdown-to-html",
   "repository": {
     "type": "git",
-    "url": "git@github.com:jsreport/jsreport-html-to-text.git"
+    "url": "git@github.com:on2air/jsreport-markdown-to-html.git"
   },
   "author": {
-    "name": "Jan Blaha",
-    "email": "jan.blaha@hotmail.com"
+    "name": "Openside/On2Air",
+    "email": "dev@on2air.com"
   },
   "scripts": {
     "test": "standard",
@@ -27,7 +27,7 @@
     "node": ">=8.9"
   },
   "dependencies": {
-    "html-to-text": "4.0.0",
+    "showdown": "^1.9.1",
     "node.extend.without.arrays": "1.1.6"
   },
   "devDependencies": {
